@@ -1,0 +1,3 @@
+[submodule "izzi-engine/vendor/spdlog"]
+	path = izzi-engine/vendor/spdlog
+	url = https://github.com/gabime/spdlog

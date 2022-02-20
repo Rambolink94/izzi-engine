@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Izzi">
+      <UniqueIdentifier>{4B2E877C-3765-880D-E051-6E10CC67040F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Izzi.h" />
+    <ClInclude Include="src\Izzi\Application.h">
+      <Filter>Izzi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Izzi\Core.h">
+      <Filter>Izzi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Izzi\EntryPoint.h">
+      <Filter>Izzi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Izzi\Log.h">
+      <Filter>Izzi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Izzi\Application.cpp">
+      <Filter>Izzi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Izzi\Log.cpp">
+      <Filter>Izzi</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
